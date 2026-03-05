@@ -1,4 +1,8 @@
-#test
+# Commands to Upload to GitHub
+# git add -p (or "git add ." for everything)
+# git commit -m "write your message here"
+# git push
+
 from flask import Flask, render_template, request, jsonify
 import serial
 import threading
